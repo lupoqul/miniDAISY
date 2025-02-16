@@ -43,14 +43,13 @@ Its based on an ESP32-board. I've chosen this one, because there is a lipo charg
 
 ## Software
 
-As an IDE I'm using visual studio code with platform-io. The platformio.ini configuration file is included. It contains a build configuration and the following libraries:
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [PlatformIO IDE](https://platformio.org/platformio-ide)
+As an IDE I'm using [Visual Studio Code](https://code.visualstudio.com/) with [PlatformIO IDE](https://platformio.org/platformio-ide). The platformio.ini configuration file is included. It contains a build configuration and the following libraries:
 
 * [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [olikraus/U8g2](https://github.com/olikraus/u8g2)
 * [rlogiacco/CircularBuffer](https://github.com/rlogiacco/CircularBuffer)
+
+As of now, the train live data is supplied by [v6.vbb.transport.rest](https://v6.vbb.transport.rest/). Unfortunately there is no way to get information about the length or type of train. But it does return the line number, planned and actual time, destination and some more. The esp requests new data every 3min and stores it for the next 12 trains.  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
