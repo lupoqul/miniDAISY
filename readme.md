@@ -57,12 +57,12 @@ Its based on an ESP32-board. I've chosen this one, because there is a lipo charg
 
 I've designed a compact 3d-print case thats made for the specific parts I used. It's made out of 3 parts, 2 optional supports and screwed together with 2x M3x10. All parts were beeing printed on an Ender3 V3 with standard PLA. The stl files are in the case directory. There is a 7mm hole for an on/off switch.
 
-<center>
+<center><p float="left">
 <img src="./case/photo.jpg" width="24%">
 <img src="./case/ports.png" width="24%">
 <img src="./case/front.png" width="24%">
 <img src="./case/explosion.png" width="24%">
-</center>
+</p></center>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
