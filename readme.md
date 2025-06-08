@@ -8,7 +8,7 @@
   # [miniDAISY](https://github.com/lupoqul/miniDAISY)
 
   <p align="center">
-    a Tiny esp32-based BVG-style train information display
+    a tiny esp32-based BVG-style train information display
     <br />
   </p>
 </div>
@@ -31,16 +31,6 @@ Originally, this was a gift for a friend. It closely resembles the train informa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Hardware
-
-Its based on an ESP32-board. I've chosen this one, because there is a lipo charger included.
-
-* AZDelivery LOLIN32 Lite Board V1.0
-* Waveshare 2.42inch OLED Display Module 128×64
-* generic 820mAh li-po battery
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Software
 
 As an IDE I'm using [Visual Studio Code](https://code.visualstudio.com/) with [PlatformIO IDE](https://platformio.org/platformio-ide). The platformio.ini configuration file is included. It contains a build configuration and the following libraries:
@@ -53,11 +43,33 @@ As of now, the train live data is supplied by [v6.vbb.transport.rest](https://v6
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Hardware
+
+Its based on an ESP32-board. I've chosen this one, because there is a lipo charger included.
+
+* AZDelivery LOLIN32 Lite Board V1.0
+* Waveshare 2.42inch OLED Display Module 128×64
+* generic 820mAh li-po battery 44x31mm (polarity was inversed!)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Case
+
+I've designed a compact 3d-print case thats made for the specific parts I used. It's made out of 3 parts, 2 optional supports and screwed together with 2x M3x10. All parts were beeing printed on an Ender3 V3 with standard PLA. The stl files are in the case directory. There is a 7mm hole for an on/off switch.
+
+<center>
+<img src="./case/photo.jpg" width="24%">
+<img src="./case/ports.png" width="24%">
+<img src="./case/front.png" width="24%">
+<img src="./case/explosion.png" width="24%">
+</center>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Future Goals
 
 As of now, this is just a tiny software project without any testing. Its just a proof of work. Future Goals include:
 
-* 3d-print case
 * code testing
 * demo mode without wifi
 
